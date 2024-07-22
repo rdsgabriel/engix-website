@@ -32,7 +32,7 @@ export default function Why() {
         </main>
     </div>
     <div className='md:px-44 flex-col justify-center mt-2 '>
-    <h1 className='text-center font-sf-display-bold mx-2 md:text-xl'> Com a <span className='text-azul1'>Engix</span>, você tem <span className='text-azul1'>Marketing</span>, <span className='text-azul1'>Desenvolvimento</span> e <span className='text-azul1'>Design</span> em um só lugar.</h1>
+    <h1 className='text-center font-sf-display-bold mx-2 md:text-xl text-preto'> Com a <span className='text-azul1'>Engix</span> você tem <span className='text-azul1'>Marketing</span>, <span className='text-azul1'>Desenvolvimento</span> e <span className='text-azul1'>Design</span> em um só lugar.</h1>
        <Image
        src={Teste}
        alt='ilustration'
