@@ -14,7 +14,9 @@ module.exports = {
         branco: '#F3F3F5',
         preto: '#2C2C2C'
       },
-      fontFamily:{'sf-display':['SF Pro Display', 'sans-serif']},
+      fontFamily:{'sf-display':['SF Pro Display', 'sans-serif'],
+        'sf-display-bold':['SF Pro Display Semibold', 'sans-serif']
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

@@ -38,6 +38,12 @@ body {
   font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: 'SF Pro Display Semibold';
+  src: url('/fonts/SF-Pro-Display-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
 
 body {
   font-family: 'SF Pro Display', sans-serif;
