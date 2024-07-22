@@ -8,7 +8,7 @@ export default function Why() {
     <div className="max-w-6xl px-6 py-10 mx-auto">
     <span className=" inline-block py-1 px-2 rounded-full text-pink-600 bg-azul1 mr-3"><i ></i></span>
 
-        <h1 className="mt-2 text-xl font-sf-display-bold text-preto lg:text-3xl dark:text-white">
+        <h1 className="mt-2 text-xl font-sf-display-bold text-preto lg:text-3xl">
             Porque você deveria estar no digital?
         </h1>
 
