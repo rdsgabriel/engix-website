@@ -66,9 +66,9 @@ const Lets = () => {
   };
 
   return (
-    <footer className="bg-branco aos " data-aos='fade-up'>
+    <footer className="bg-gradient-to-br from-branco to-blue-200 aos " data-aos='fade-up'>
        
-      <div className='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 appear-animation'>
+      <div className='mx-auto max-w-screen-xl px-4 pb-8 sm:px-6 lg:px-8 appear-animation'>
       {expanded ? (
         <div className='transition-all duration-1000 ease-in-out'>
           <div className="relative">
@@ -157,8 +157,8 @@ const Lets = () => {
        maxLength={12}
         pattern="[0-9]*"
     />
-    <form class="w-full">
-      <label for="segment" class="block mb-2 text-lg font-bold text-branco text-center">Qual o seu segmento?</label>
+    <form className="w-full">
+      <label for="segment" className="block mb-2 text-lg font-bold text-branco text-center">Qual o seu segmento?</label>
       <select id="segment"
             name="segment"
             className="bg-gray-50 border border-gray-300 text-gray-600 text-sm rounded-full focus:ring-rosa focus:border-rosa block w-full p-2.5"
@@ -183,7 +183,7 @@ const Lets = () => {
       </select>
     </form>
 
-<label for="description" class="block text-lg text-branco pt-2 font-bold">Se apresente rapidinho pra gente :)</label>
+<label for="description" className="block text-lg text-branco pt-2 font-bold">Se apresente rapidinho pra gente :)</label>
 <textarea id="description"
             name="description"
             rows="4"
@@ -209,11 +209,11 @@ const Lets = () => {
        
        
         ) : (
-          <div className="flex flex-col items-center gap-4 rounded-lg bg-azul1 shadow-lg sm:flex-row sm:justify-between transition-all duration-500 p-6 text-branco font-sf-display">
+          <div className="flex flex-col items-center gap-4 rounded-lg bg-gradient-to-br from-azul1 via-azul2 to-azul3 shadow-lg sm:flex-row sm:justify-between transition-all duration-500 p-6 text-branco font-sf-display">
             <strong className="text-xl font-sf-display-bold text-white lg:text-2xl">Faça um orçamento gratuito!</strong>
             <a
             id='lets'
-              className="inline-flex items-center gap-2 rounded-full border border-branco bg-azul1 px-8 py-3 text-branco hover:bg-branco hover:text-azul1 focus:outline-none focus:ring active:bg-rosa/90"
+              className="inline-flex items-center gap-2 rounded-full border border-branco bg-gradient-to-tr from-azul3 to-azul1 px-8 py-3 text-branco hover:bg-gradient-to-tr hover:from-branco hover:to-indigo-300 hover:text-azul1 focus:outline-none focus:ring active:bg-rosa/90"
               onClick={toggleExpand}
             >
               <button className="text-sm font-medium">Vamos lá </button>

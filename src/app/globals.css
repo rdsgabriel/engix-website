@@ -48,3 +48,8 @@ body {
 body {
   font-family: 'SF Pro Display', sans-serif;
 }
+
+.bg-clip-text {
+  -webkit-background-clip: text; /* Para navegadores baseados em WebKit */
+  background-clip: text;         /* Para navegadores modernos */
+}

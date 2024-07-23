@@ -7,7 +7,9 @@ import Why from "./why";
 import Services from "./services"
 import Wpp from "./whatsappbtn";
 import Lets from "./lets";
-import Clientes from "./clientes";
+import Criativo from "./criativo";
+import Footer from "./footer";
+
 
 export default function Home() {
   return (
@@ -19,8 +21,9 @@ export default function Home() {
    <Why/>
    <Services/>
    <Wpp/>
-   <Lets></Lets>
-   <Clientes></Clientes>
+   <Lets/>
+   <Criativo/>
+   <Footer/>
    </>
   );
 }

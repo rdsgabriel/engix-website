@@ -1,4 +1,4 @@
-import Mao from '../../public/images/mao.png'
+import Cel from '../../public/images/cel.svg'
 import Teste from '../../public/images/teste.svg'
 import Image from 'next/image';
 
@@ -17,9 +17,9 @@ export default function Why() {
             
             <div className="w-full px-6 pb-4 py-1 bg-azul1 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                 <Image
-                src={Mao}
+                src={Cel}
                 alt="Logo Minimizada"
-                className=" hidden md:block h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[28rem] md:w-80 lg:h-[27rem] lg:w-[24rem] md:rounded-2xl"
+                className=" hidden md:block h-24 w-24 md:mx-6 rounded-full object-cover md:h-[28rem] md:w-80 lg:h-[27rem] lg:w-[24rem] md:rounded-2xl"
                 />
                 
                 <div className="mt-2 md:mx-6 mb-4">
@@ -31,8 +31,8 @@ export default function Why() {
             </div>
         </main>
     </div>
-    <div className='md:px-44 flex-col justify-center mt-2 '>
-    <h1 className='text-center font-sf-display-bold mx-2 md:text-xl text-preto'> Com a <span className='text-azul1'>Engix</span> você tem <span className='text-azul1'>Marketing</span>, <span className='text-azul1'>Desenvolvimento</span> e <span className='text-azul1'>Design</span> em um só lugar.</h1>
+    <div className='px-4 md:px-44 flex-col justify-center mt-2 '>
+    <h1 className='text-center font-sf-display-bold mx-2 md:text-xl text-preto'> Com a <span className='text-azul1'>Engix</span> você tem <span className='text-azul1'>Desenvolvimento</span>, <span className='text-azul1'>Data Science</span> e <span className='text-azul1'>Design</span> em um só lugar.</h1>
        <Image
        src={Teste}
        alt='ilustration'
