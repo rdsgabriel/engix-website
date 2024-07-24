@@ -7,7 +7,7 @@ import Why from "./why";
 import Services from "./services"
 import Wpp from "./whatsappbtn";
 import Lets from "./lets";
-import Criativo from "./criativo";
+import AboutUs from "./aboutus";
 import Footer from "./footer";
 
 
@@ -22,7 +22,7 @@ export default function Home() {
    <Services/>
    <Wpp/>
    <Lets/>
-   <Criativo/>
+   <AboutUs/>
    <Footer/>
    </>
   );

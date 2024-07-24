@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-branco">
       <body className={inter.className}>{children}</body>
-      <GoogleAnalytics gaId="G-0B0V2RFSBH"/>
+      <GoogleAnalytics async gaId="G-0B0V2RFSBH"/>
     </html>
   );
 }
