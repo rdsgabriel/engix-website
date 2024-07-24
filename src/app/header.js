@@ -12,8 +12,8 @@ export default function Header() {
   };
 
   return (
-    <div className="bg-azul1 flex justify-between items-center px-8 py-4 md:py-10 sm:justify-center">
-      <div className="flex-shrink-0 sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:translate-y-2 sm:y-10">
+    <div className="bg-azul1 flex justify-between items-center px-8 py-4 md:py-10 sm:justify-center relative">
+      <div className="flex-shrink-0 sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:translate-y-2 sm:y-10 z-10">
         <Image
           src={LogoMin}
           alt="Logo Minimizada"
@@ -47,20 +47,27 @@ export default function Header() {
 
       {/* Menu de navegação */}
       <ul
-        className={`sm:flex sm:items-center sm:static absolute bg-azul1 bg-opacity-95 w-full left-0 transition-all duration-500 ease-in-out ${
-          isOpen ? 'opacity-100 top-16' : 'opacity-0 top-[-200px] hidden'
+        className={`sm:flex sm:items-center sm:static absolute bg-azul1 bg-opacity-95 w-full left-0 pl-4 font-sf-display transition-transform duration-700 ease-in-out ${
+          isOpen ? 'opacity-100 top-12 translate-y-0' : 'opacity-0 top-[-50px] translate-y-[-20px]'
         }`}
         style={{
           height: isOpen ? 'auto' : '0',
           overflow: isOpen ? 'visible' : 'hidden',
+          zIndex: 5
         }}
       >
-        <div className='px-4 font-sf-display'>
-        <a href="#services"><li className="p-4 text-branco ">Serviços</li></a>
-        <a href="#services"><li className="p-4 text-branco ">Sobre nós</li></a>
-        <a href="#services"><li className="p-4 text-branco ">Contato</li></a>
-        <a href="#services"><li className="p-4 text-branco ">Orçamento</li></a>
-        </div>
+        <li className="p-4 text-branco pt-8">
+          <a onClick={handleClick} href="#services" className="block">Serviços</a>
+        </li>
+        <li className="p-4 text-branco">
+          <a onClick={handleClick} href="#about-us" className="block">Sobre nós</a>
+        </li>
+        <li className="p-4 text-branco">
+          <a onClick={handleClick} href="#contact" className="block">Contato</a>
+        </li>
+        <li className="p-4 text-branco pb-8">
+          <a onClick={handleClick} href="#quote" className="block">Orçamento</a>
+        </li>
       </ul>
     </div>
   );
