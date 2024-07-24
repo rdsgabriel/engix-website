@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Services() {
   return (
-    <div className='max-w-screen bg-gradient-to-br from-branco to-blue-100  font-sf-display'>
+    <div id='services' className='max-w-screen bg-gradient-to-br from-branco to-blue-100  font-sf-display'>
        <div className="max-w-6xl px-6 py-10 mx-auto ">
     <span className=" inline-block py-1 px-4 rounded-full text-pink-600 bg-gradient-to-tl from-azul3 via-azul2 to-azul1 mr-3"><i ></i></span>
     
