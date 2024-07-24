@@ -12,7 +12,7 @@ export default function AboutUs() {
   };
 
   return (
-    <section className="">
+    <section className="bg-branco">
       <div className="max-w-6xl px-6 py-10 mx-auto">
         <span className="inline-block py-1 px-2 rounded-full bg-azul1 mr-3">
           <i></i>
