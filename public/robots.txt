@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://engix.tech/sitemap.xml
