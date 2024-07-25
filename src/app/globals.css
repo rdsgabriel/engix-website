@@ -67,18 +67,21 @@ body {
 }
 }
 
-.animate-smooth-ping {
-  animation: smooth-ping 1s ease-in-out infinite;
-  -webkit-animation: smooth-ping 1s ease-in-out infinite;
+
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from { transform: scale(0.95); -webkit-transform: scale(0.95); -moz-transform: scale(0.95); -ms-transform: scale(0.95); -o-transform: scale(0.95); }
+  to { transform: scale(1.05); -webkit-transform: scale(1.05); -moz-transform: scale(1.05); -ms-transform: scale(1.05); -o-transform: scale(1.05); }
 }
 
-@keyframes slide {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+.pulsetwo {
+  animation: pulse 10s infinite ease-in-out alternate;
+  -webkit-animation: pulse 10s infinite ease-in-out alternate;
 }
+@keyframes pulsetwo {
+  from { transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); }
+  to { transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); }
+}
+

@@ -19,7 +19,7 @@ export default function Services() {
 
 
         <div
-  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul3 to-azul1 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8 transition-transform sm:duration-500 sm:hover:scale-105 hover:from-azul1 hover:to-azul3">
+  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul3 to-azul1 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8 transition-transform sm:duration-500 sm:hover:scale-105 hover:from-azul1 hover:to-azul3 ">
   <div
     className="relative pb-8 m-0 mb-8 overflow-hidden text-center text-gray-700 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10 ">
     

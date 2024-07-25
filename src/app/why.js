@@ -19,7 +19,7 @@ export default function Why() {
                 <Image
                 src={testando}
                 alt="Logo Minimizada"
-                className=" hidden md:block h-24 w-24 md:mx-6 rounded-full object-cover md:h-[28rem] md:w-80 lg:h-[27rem] lg:w-[24rem] md:rounded-2xl"
+                className="pulsetwo hidden md:block h-24 w-24 md:mx-6 rounded-full object-cover md:h-[28rem] md:w-80 lg:h-[27rem] lg:w-[24rem] md:rounded-2xl"
                 />
                 
                 <div className="mt-2 md:mx-6 mb-4  ">
