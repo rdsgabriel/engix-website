@@ -1,5 +1,5 @@
 'use client'
-import Mao from '../../public/images/mao.png'
+
 import Image from 'next/image';
 
 export default function Services() {

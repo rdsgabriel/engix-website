@@ -4,10 +4,6 @@ import LogoMin from '../../public/images/LogoMin2.svg';
 export default function Footer() {
   return (
    <div className="bg-azul1">
-   
-
-    
-      
 
       <div className=" sm:flex sm:items-center sm:justify-between">
         <div className="flex justify-center p-2 text-rosa sm:justify-start">

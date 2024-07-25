@@ -1,7 +1,7 @@
 import Cel from '../../public/images/cel.svg'
 import Teste from '../../public/images/teste.svg'
 import Image from 'next/image';
-
+import testando from '../../public/images/testando.svg'
 export default function Why() {
   return (
     <section className="bg-gradient-to-b from-[#e3e6e7] to-branco">
@@ -17,7 +17,7 @@ export default function Why() {
             
             <div className="w-full px-6 pb-4 py-1 bg-azul1 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                 <Image
-                src={Cel}
+                src={testando}
                 alt="Logo Minimizada"
                 className=" hidden md:block h-24 w-24 md:mx-6 rounded-full object-cover md:h-[28rem] md:w-80 lg:h-[27rem] lg:w-[24rem] md:rounded-2xl"
                 />
