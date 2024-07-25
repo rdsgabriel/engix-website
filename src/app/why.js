@@ -15,14 +15,14 @@ export default function Why() {
         <main className="relative z-10 w-full mt-8 md:flex md:items-center xl:mt-12">
             <div className="absolute w-full bg-azul1 -z-10 md:h-96 rounded-2xl"></div>
             
-            <div className="w-full px-6 pb-4 py-1 bg-azul1 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
+            <div className="w-full px-6 pb-4 py-1 bg-azul1 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly ">
                 <Image
                 src={testando}
                 alt="Logo Minimizada"
                 className=" hidden md:block h-24 w-24 md:mx-6 rounded-full object-cover md:h-[28rem] md:w-80 lg:h-[27rem] lg:w-[24rem] md:rounded-2xl"
                 />
                 
-                <div className="mt-2 md:mx-6 mb-4">
+                <div className="mt-2 md:mx-6 mb-4  ">
                 <span className=" inline-block py-0.5 px-5 rounded-full  bg-azul3 mr-3"><i ></i></span>
                     <p className="mt-4 text-base font-sf-display leading-relaxed text-white md:text-xl">  As ferramentas digitais possibilitam a coleta e análise de dados sobre o comportamento dos consumidores, permitindo que sua empresa tome decisões mais informadas e estratégicas. Em um mundo cada vez mais orientado por informações, dados são o novo petróleo.</p>
                     

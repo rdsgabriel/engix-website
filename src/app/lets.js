@@ -66,7 +66,7 @@ const Lets = () => {
   };
 
   return (
-    <footer className="pt-4 bg-gradient-to-br from-branco to-blue-200 aos " data-aos='fade-up'>
+    <div  id='orcamento' className="pt-4 bg-gradient-to-br from-branco to-blue-200 aos " data-aos='fade-up'>
        
       <div className='mx-auto max-w-screen-xl px-4 pb-8 sm:px-6 lg:px-8 appear-animation'>
       {expanded ? (
@@ -237,7 +237,7 @@ const Lets = () => {
 
     
   </div>
-</footer>
+</div>
   );
 };
 

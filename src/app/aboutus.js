@@ -13,7 +13,7 @@ export default function AboutUs() {
 
   return (
     <section className="bg-gradient-to-b from-[#cbdff9] to-branco">
-      <div className="max-w-6xl px-6 py-10 mx-auto">
+      <div id='aboutus' className="max-w-6xl px-6 py-10 mx-auto">
         <span className="inline-block py-1 px-2 rounded-full bg-azul1 mr-3">
           <i></i>
         </span>

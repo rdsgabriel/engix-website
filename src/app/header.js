@@ -60,13 +60,13 @@ export default function Header() {
           <a onClick={handleClick} href="#services" className="block">Serviços</a>
         </li>
         <li className="p-4 text-branco">
-          <a onClick={handleClick} href="#about-us" className="block">Sobre nós</a>
+          <a onClick={handleClick} href="#aboutus" className="block">Sobre nós</a>
         </li>
         <li className="p-4 text-branco">
-          <a onClick={handleClick} href="#contact" className="block">Contato</a>
+          <a onClick={handleClick} href="https://wa.me/5521971899439?text=Olá%2C%20Gabriel%21%20Estou%20interessado%20nos%20serviços%20da%20Engix%2C%20podemos%20conversar%3F" className="block">Contato</a>
         </li>
         <li className="p-4 text-branco pb-8">
-          <a onClick={handleClick} href="#quote" className="block">Orçamento</a>
+          <a onClick={handleClick} href="#orcamento" className="block">Orçamento</a>
         </li>
       </ul>
     </div>

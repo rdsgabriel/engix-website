@@ -55,3 +55,30 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+@keyframes smooth-ping {
+  75%, 100% {
+    transform: scale(1.05);
+    opacity: 0.4;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+}
+
+.animate-smooth-ping {
+  animation: smooth-ping 1s ease-in-out infinite;
+  -webkit-animation: smooth-ping 1s ease-in-out infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

@@ -19,9 +19,9 @@ export default function Services() {
 
 
         <div
-  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul3 to-azul1 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8">
+  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul3 to-azul1 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8 transition-transform sm:duration-500 sm:hover:scale-105 hover:from-azul1 hover:to-azul3">
   <div
-    className="relative pb-8 m-0 mb-8 overflow-hidden text-center text-gray-700 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
+    className="relative pb-8 m-0 mb-8 overflow-hidden text-center text-gray-700 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10 ">
     
     <h1 className="flex justify-center gap-1 mt-6 antialiased font-sf-display-bold text-xl tracking-wide lg:text-2xl text-branco">
       Desenvolvimento
@@ -80,7 +80,7 @@ export default function Services() {
         </div> 
 
         <div
-  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul1 to-azul3 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8">
+  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul1 to-azul3 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8 hover:from-azul3 hover:to-azul1 transition-transform sm:duration-500 sm:hover:scale-105">
   <div
     className="relative pb-8 m-0 mb-8 overflow-hidden text-center text-gray-700 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
     
@@ -140,7 +140,7 @@ export default function Services() {
         </div>
 
         <div
-  className="mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul1 to-azul3 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8">
+  className="mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul1 to-azul3 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] hover:from-azul3 hover:to-azul1 p-8 transition-transform sm:duration-500 sm:hover:scale-105">
   <div
     className="relative pb-8 m-0 mb-8 overflow-hidden text-center text-gray-700 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
    
@@ -182,7 +182,7 @@ export default function Services() {
             fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-3 h-3">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
           </svg></span>
-        <p className="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
+        <p  id='orcamento' className="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
           Business Intelligence
         </p>
       </li>
@@ -191,7 +191,7 @@ export default function Services() {
             fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-3 h-3">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
           </svg></span>
-        <p className="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
+        <p  className="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
            Soluções via IA
         </p>
       </li>
