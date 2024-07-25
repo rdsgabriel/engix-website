@@ -30,7 +30,7 @@ export default function AboutUs() {
             <div className="mb-4">
               <button
                 onClick={() => toggleSection('mission')}
-                className={`w-full text-xl font-sf-display-bold text-white text-left bg-azul3 p-4 rounded-md flex items-center justify-between hover:bg-azul2 transition-colors duration-300 ${activeSection === 'mission' ? 'rounded-b-none' : ''}`}
+                className={`w-full text-xl font-sf-display-bold text-white text-left bg-azul1 p-4 rounded-md flex items-center justify-between hover:bg-azul2 transition-colors duration-300 ${activeSection === 'mission' ? 'rounded-b-none' : ''}`}
               >
                 Nossa Missão
                 <Image
@@ -53,7 +53,7 @@ export default function AboutUs() {
             <div className="mb-4">
               <button
                 onClick={() => toggleSection('team')}
-                className={`w-full text-xl font-sf-display-bold text-white text-left bg-azul3 p-4 rounded-md flex items-center justify-between hover:bg-azul2 transition-colors duration-300 ${activeSection === 'team' ? 'rounded-b-none' : ''}`}
+                className={`w-full text-xl font-sf-display-bold text-white text-left bg-azul1 p-4 rounded-md flex items-center justify-between hover:bg-azul2 transition-colors duration-300 ${activeSection === 'team' ? 'rounded-b-none' : ''}`}
               >
                 Nossa Equipe
                 <Image
@@ -76,7 +76,7 @@ export default function AboutUs() {
             <div className="mb-4">
               <button
                 onClick={() => toggleSection('values')}
-                className={`w-full text-xl font-sf-display-bold text-white text-left bg-azul3 p-4 rounded-md flex items-center justify-between hover:bg-azul2 transition-colors duration-300 ${activeSection === 'values' ? 'rounded-b-none' : ''}`}
+                className={`w-full text-xl font-sf-display-bold text-white text-left bg-azul1 p-4 rounded-md flex items-center justify-between hover:bg-azul2 transition-colors duration-300 ${activeSection === 'values' ? 'rounded-b-none' : ''}`}
               >
                 Nossos Valores
                 <Image
@@ -102,7 +102,7 @@ export default function AboutUs() {
             <div className="mb-4">
               <button
                 onClick={() => toggleSection('history')}
-                className={`w-full text-xl font-sf-display-bold text-white text-left bg-azul3 p-4 rounded-md flex items-center justify-between hover:bg-azul2 transition-colors duration-300 ${activeSection === 'history' ? 'rounded-b-none' : ''}`}
+                className={`w-full text-xl font-sf-display-bold text-white text-left bg-azul1 p-4 rounded-md flex items-center justify-between hover:bg-azul2 transition-colors duration-300 ${activeSection === 'history' ? 'rounded-b-none' : ''}`}
               >
                 Nossa História
                 <Image
