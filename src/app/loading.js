@@ -1,13 +1,18 @@
 
-import Image from 'next/image';
-import loading from '../../public/images/loading.gif'
+import Lottie from 'react-lottie-player';
+import animationData from '../../public/images/logoanimada.json';
 
 
 const Loading = () => {
   return (
-    <div className="flex bg-preto items-center justify-center min-h-screen">
-      <Image src={loading} alt="Loading..." />
-    </div>
+    <div className="flex items-center justify-center min-h-screen bg-preto">
+    <Lottie
+      loop
+      animationData={animationData}
+      play
+      style={{ width: 600, height: 600 }} // Ajuste o tamanho conforme necessário
+    />
+  </div>
   );
 };
 
