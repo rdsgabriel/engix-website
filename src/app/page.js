@@ -1,24 +1,25 @@
 'use client'
-import { useState, useEffect } from 'react';
-import Header from './header';
-import HeaderTwo from './headertwo';
-import Video from './video';
-import Presentation from './presentation';
-import Why from './why';
-import Services from './services';
-import Wpp from './whatsappbtn';
-import Lets from './lets';
-import AboutUs from './aboutus';
-import Footer from './footer';
+import React, { Suspense, lazy, useState, useEffect } from 'react';
 import Loading from './loading';
+
+// Lazy load components
+const Header = lazy(() => import('./header'));
+const HeaderTwo = lazy(() => import('./headertwo'));
+const Video = lazy(() => import('./video'));
+const Presentation = lazy(() => import('./presentation'));
+const Why = lazy(() => import('./why'));
+const Services = lazy(() => import('./services'));
+const Wpp = lazy(() => import('./whatsappbtn'));
+const Lets = lazy(() => import('./lets'));
+const AboutUs = lazy(() => import('./aboutus'));
+const Footer = lazy(() => import('./footer'));
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 2500);
+    const timer = setTimeout(() => setLoading(false), 2500); 
+    return () => clearTimeout(timer);
   }, []);
 
   if (loading) {
@@ -26,7 +27,7 @@ export default function Home() {
   }
 
   return (
-    <>
+    <Suspense fallback={<Loading/>}> 
       <Header />
       <HeaderTwo />
       <Video />
@@ -37,6 +38,6 @@ export default function Home() {
       <Lets />
       <AboutUs />
       <Footer />
-    </>
+    </Suspense>
   );
 }

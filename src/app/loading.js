@@ -12,7 +12,7 @@ export default function Loading() {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/images/logoanimada.json' // Ajuste o caminho conforme necessário
+        path: '/images/logoanimada.json' 
       });
     }
   }, []);
@@ -20,7 +20,7 @@ export default function Loading() {
   return (
     <div
       ref={animationContainer}
-      style={{ width: '100%', height: '100vh' }} // Ajuste o tamanho conforme necessário
+      className="w-full h-screen bg-preto"
     ></div>
   );
 }
