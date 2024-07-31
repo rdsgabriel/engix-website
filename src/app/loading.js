@@ -10,7 +10,7 @@ export default function Loading() {
       lottie.loadAnimation({
         container: animationContainer.current,
         renderer: 'svg',
-        loop: true,
+        loop: false,
         autoplay: true,
         path: '/images/logoanimada.json' 
       });
@@ -20,7 +20,7 @@ export default function Loading() {
   return (
     <div
       ref={animationContainer}
-      className="w-full h-screen py-auto bg-preto"
+      className="w-full h-screen py-auto bg-branco"
     ></div>
   );
 }
