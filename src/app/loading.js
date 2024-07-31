@@ -1,19 +1,26 @@
+'use client'
+import { useEffect, useRef } from 'react';
+import lottie from 'lottie-web';
 
-import Lottie from 'react-lottie-player';
-import animationData from '../../public/images/logoanimada.json';
+export default function Loading() {
+  const animationContainer = useRef(null);
 
+  useEffect(() => {
+    if (animationContainer.current) {
+      lottie.loadAnimation({
+        container: animationContainer.current,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '/images/logoanimada.json' // Ajuste o caminho conforme necessário
+      });
+    }
+  }, []);
 
-const Loading = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-preto">
-    <Lottie
-      loop
-      animationData={animationData}
-      play
-      style={{ width: 600, height: 600 }} // Ajuste o tamanho conforme necessário
-    />
-  </div>
+    <div
+      ref={animationContainer}
+      style={{ width: '100%', height: '100vh' }} // Ajuste o tamanho conforme necessário
+    ></div>
   );
-};
-
-export default Loading;
+}
