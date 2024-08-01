@@ -66,7 +66,7 @@ const Lets = () => {
   };
 
   return (
-    <div  id='orcamento' className="pt-4 bg-gradient-to-br from-branco to-blue-200 aos " data-aos='fade-up'>
+    <div  id='orcamento' className="pt-4 bg-gradient-to-br from-branco to-blue-200">
        
       <div className='mx-auto max-w-screen-xl px-4 pb-8 sm:px-6 lg:px-8 appear-animation'>
       {expanded ? (
@@ -209,7 +209,7 @@ const Lets = () => {
        
        
         ) : (
-          <div className="flex flex-col items-center gap-4 rounded-lg bg-gradient-to-br from-azul1 via-azul2 to-azul3 shadow-lg sm:flex-row sm:justify-between transition-all duration-500 p-6 text-branco font-sf-display">
+          <div className="flex flex-col items-center gap-4 rounded-lg bg-gradient-to-br from-azul1 via-azul2 to-azul3 shadow-lg sm:flex-row sm:justify-between transition-all duration-500 p-6 text-branco font-sf-display aos" data-aos='fade-right' data-aos-once="true">
             <strong className="text-xl font-sf-display-bold text-white lg:text-2xl">Faça um orçamento gratuito!</strong>
             <a
             id='lets'

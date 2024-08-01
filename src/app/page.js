@@ -1,6 +1,8 @@
 'use client'
 import React, { Suspense, lazy, useState, useEffect } from 'react';
 import Loading from './loading';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // Lazy load components
 const Header = lazy(() => import('./header'));
@@ -15,10 +17,14 @@ const AboutUs = lazy(() => import('./aboutus'));
 const Footer = lazy(() => import('./footer'));
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({ duration: 1600, offset:200, once: true });
+  }, []);
+  
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000); 
+    const timer = setTimeout(() => setLoading(false), 2000);
     return () => clearTimeout(timer);
   }, []);
 

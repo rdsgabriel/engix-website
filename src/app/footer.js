@@ -1,17 +1,17 @@
 import Image from "next/image";
-import LogoMin from '../../public/images/LogoMin2.svg';
+import LogoMin from '../../public/images/engix.svg';
 
 export default function Footer() {
   return (
    <div className="bg-azul1">
 
       <div className=" sm:flex sm:items-center sm:justify-between">
-        <div className="flex justify-center md:py-0 py-4  sm:justify-start">
+        <div className="flex justify-center pt-5 px-4 md:pb-2 sm:justify-start">
         <Image
             src={LogoMin}
             alt="Logo"
-            width={44}
-            height={44}
+            width={128}
+            height={128}
             className=""
           />
         </div>

@@ -20,7 +20,7 @@ export default function Loading() {
   return (
     <div
       ref={animationContainer}
-      className="w-full h-screen py-auto bg-branco"
+      className="w-full h-screen py-auto bg-preto"
     ></div>
   );
 }

@@ -1,7 +1,8 @@
-import Cel from '../../public/images/cel.svg'
+
 import Teste from '../../public/images/teste.svg'
 import Image from 'next/image';
 import testando from '../../public/images/testando.svg'
+
 export default function Why() {
   return (
     <section className="bg-gradient-to-b from-[#e3e6e7] to-branco">
@@ -12,7 +13,7 @@ export default function Why() {
             Porque você deveria estar no digital?
         </h1>
 
-        <main className="relative z-10 w-full mt-8 md:flex md:items-center xl:mt-12">
+        <main className="relative z-10 w-full mt-8 md:flex md:items-center xl:mt-12" >
             <div className="absolute w-full bg-azul1 -z-10 md:h-96 rounded-2xl"></div>
             
             <div className="w-full px-6 pb-4 py-1 bg-azul1 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly ">
@@ -31,7 +32,7 @@ export default function Why() {
             </div>
         </main>
     </div>
-    <div className='px-4 md:px-44 flex-col justify-center mt-2 '>
+    <div className='px-4 md:px-44 flex-col justify-center mt-2 ' data-aos='fade-down' data-aos-duration="1500" data-aos-once="true">
     <h1 className='text-center font-sf-display-bold mx-2 md:text-xl text-preto'> Com a <span className='text-azul1'>Engix</span> você tem <span className='text-azul1'>Desenvolvimento</span>, <span className='text-azul1'>Data Science</span> e <span className='text-azul1'>Design</span> em um só lugar.</h1>
        <Image
        src={Teste}
