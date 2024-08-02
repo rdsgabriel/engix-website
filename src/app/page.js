@@ -33,7 +33,7 @@ export default function Home() {
   }
 
   return (
-    <Suspense fallback={<Loading/>}> 
+    <Suspense fallback={<Loading/>} > 
       <Header />
       <HeaderTwo />
       <Video />

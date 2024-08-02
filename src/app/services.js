@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Services() {
   return (
-    <div id='services' className='max-w-screen bg-gradient-to-br from-branco to-blue-100  font-sf-display'>
+    <div id='services' className='max-w-screen bg-branco font-sf-display'>
        <div className="max-w-6xl px-6 py-10 mx-auto ">
     <span className=" inline-block py-1 px-4 rounded-full text-pink-600 bg-gradient-to-tl from-azul3 via-azul2 to-azul1 mr-3"><i ></i></span>
     
@@ -19,7 +19,7 @@ export default function Services() {
 
 
         <div
-  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul3 to-azul1 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8 transition-transform sm:duration-500 sm:hover:scale-105 hover:from-azul1 hover:to-azul3 ">
+  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-azul1 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8 transition-transform sm:duration-500 sm:hover:scale-105">
   <div
     className="relative pb-8 m-0 mb-8 overflow-hidden text-center text-gray-700 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10 ">
     
@@ -80,7 +80,7 @@ export default function Services() {
         </div> 
 
         <div
-  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul1 to-azul3 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8 hover:from-azul3 hover:to-azul1 transition-transform sm:duration-500 sm:hover:scale-105">
+  className=" mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-azul1 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] p-8 transition-transform sm:duration-500 sm:hover:scale-105">
   <div
     className="relative pb-8 m-0 mb-8 overflow-hidden text-center text-gray-700 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
     
@@ -140,7 +140,7 @@ export default function Services() {
         </div>
 
         <div
-  className="mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-gradient-to-tr from-azul1 to-azul3 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem] hover:from-azul3 hover:to-azul1 p-8 transition-transform sm:duration-500 sm:hover:scale-105">
+  className="mx-auto mt-10 relative flex flex-col bg-clip-border rounded-xl bg-azul1 text-white shadow-gray-900/20 shadow-md w-full max-w-[20rem]  p-8 transition-transform sm:duration-500 sm:hover:scale-105">
   <div
     className="relative pb-8 m-0 mb-8 overflow-hidden text-center text-gray-700 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
    

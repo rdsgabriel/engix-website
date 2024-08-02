@@ -66,7 +66,7 @@ const Lets = () => {
   };
 
   return (
-    <div  id='orcamento' className="pt-4 bg-gradient-to-br from-branco to-blue-200">
+    <div  id='orcamento' className="pt-4 bg-branco">
        
       <div className='mx-auto max-w-screen-xl px-4 pb-8 sm:px-6 lg:px-8 appear-animation'>
       {expanded ? (
