@@ -20,7 +20,7 @@ export default function Home() {
   useEffect(() => {
     AOS.init({ duration: 1600, offset:200, once: true });
   }, []);
-  
+
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
