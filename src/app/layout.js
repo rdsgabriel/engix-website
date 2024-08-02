@@ -11,8 +11,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="">
-      <body className='bg-white'>{children}</body>
+    <html lang="en" className="bg-branco">
+      <body className='bg-branco'>{children}</body>
       <GoogleAnalytics async gaId="G-0B0V2RFSBH"/>
     </html>
   );
