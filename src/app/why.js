@@ -5,7 +5,7 @@ import testando from '../../public/images/testando.svg'
 
 export default function Why() {
   return (
-    <section className="bg-gradient-to-b from-[#aeaeae] to-branco">
+    <section className="bg-gradient-to-b bg-branco">
     <div className="max-w-6xl px-6 py-10 mx-auto">
     <span className=" inline-block py-1 px-2 rounded-full text-pink-600 bg-azul1 mr-3"><i ></i></span>
 
