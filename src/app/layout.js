@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata = {
   title: "engix",
-  description: "Para nós, a excelência é um hábito.",
+  description: "Engix Tech | Para nós, a excelência é um hábito. Agência Digital focada em desenvolvimento de software. Somos a força propulsora por trás de inovações tecnológicas. Criação de Websites, Aplicativos móveis e Sistemas completos.",
 };
 
 export default function RootLayout({ children }) {
